@@ -1,0 +1,6 @@
+flask==2.0.1
+tensorflow==2.15.0
+pillow==9.0.0
+numpy>=1.23.5
+torch==1.13.0
+torchvision==0.14.0

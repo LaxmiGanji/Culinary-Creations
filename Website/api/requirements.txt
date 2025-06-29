@@ -1,0 +1,13 @@
+numpy
+scipy
+matplotlib
+torch==0.4.1
+torchvision==0.2.1
+nltk
+Pillow
+tqdm
+lmdb
+tensorflow
+tensorboardX
+flask==2.0.1
+flask-cors==3.0.10

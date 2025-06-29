@@ -1,0 +1,40 @@
+Trained Mode 20 Epochs: 
+Loss: 0.23-0.25
+
+Trained Model (20-700-rmsprop): (VERY LARGE FLUCTUTAIONS IN THE LOSS OVER CONSECUTIVE EPOCHS, SO NOT PREFERABLE)
+Loss: 0.19 (THE BEST MODEL DURING tHE 20 EPOCHS)
+Accuracy:0.91-0.93
+Early Stopping after 18th Epoch.
+
+Trained Model (500-1500-rmsprop): 
+Loss: 0.225 
+Accuracy:0.927
+Early Stopping after 21th Epoch.
+
+Trained Model (500-1500-Adam): 
+Loss: 0.2201
+Accuracy:0.9296
+Learning Rate: 0.001
+Early Stopping after 41th Epoch.
+
+Trained Model (20-1500-Adam): 
+Loss: 0.2367
+Accuracy:0.9249
+Learning Rate: 0.0005
+
+Trained Model (500-1500-Adam): 
+Loss: 0.2156
+Accuracy:0.9311
+Learning Rate: 0.0005
+Early Stopping after 45th Epoch.
+
+Trained Model (500-1500-RmsProp): 
+Loss: 0.2278
+Accuracy:0.9275
+Learning Rate: 0.0005
+
+Trained Model (500-1500-RmsProp): 
+Loss: 0.2128
+Accuracy:0.9320
+Learning Rate: 0.0005
+Early Stopping after 44th Epoch.

@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.App-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--on-background);
+}
+
+/* Dark theme component styles */
+.card {
+  background-color: var(--surface);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: var(--on-primary);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--primary-variant);
+}
+
+.input {
+  background-color: var(--surface);
+  color: var(--on-surface);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+}
+
+/* Navigation styles */
+.nav-menu {
+  background-color: var(--surface);
+}
+
+.nav-link {
+  color: var(--on-surface);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+/* Content sections */
+.section {
+  padding: 40px 20px;
+  background-color: var(--background);
+}
+
+.section-title {
+  color: var(--primary-color);
+  margin-bottom: 24px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: var(--surface);
+  color: var(--on-surface);
+  padding: 40px 20px;
+  margin-top: auto;
+}
